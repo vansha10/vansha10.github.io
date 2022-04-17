@@ -1,26 +1,13 @@
 <html>
-    <head>
-        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-        <style>
-            model-viewer {
-              cursor: grab;
-              display: flex;
-              height: 100vh;
-              width: 100%;
-              overflow: hidden;
-              position: relative;
-              user-select: none;
-            }
-        </style>
-    </head>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <body>
-        <model-viewer bounds="tight" enable-pan src="wollyWater.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls environment-image="neutral" shadow-intensity="1">
+        <model-viewer bounds="tight" enable-pan src="wollyWater.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1">
             <div class="progress-bar hide" slot="progress-bar">
                 <div class="update-bar"></div>
             </div>
-            <!-- <button slot="ar-button" id="ar-button">
+            <button slot="ar-button" id="ar-button">
                 View in your space
-            </button> -->
+            </button>
             <div id="ar-prompt">
                 <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
             </div>
