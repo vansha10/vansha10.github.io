@@ -971,6 +971,7 @@ audio {
 .banner {
 	max-width: 100%;
 	display: none;
+	margin-top:50px;
 }
 
 
@@ -1165,6 +1166,7 @@ audio {
 
 .cake-cover {
 	margin-top: 50px;
+	margin-bottom: 200px;
 }
 .message {
 	margin-top: 200px;
