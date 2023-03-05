@@ -119,6 +119,7 @@ $('document').ready(function(){
 	});	
 
 	$('#cake_fadein').click(function(){
+		$('.balloons').fadeOut('fast');
 		$(".gallery-show-hide").fadeOut('slow');
 		$('.cake').fadeIn('slow');
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
@@ -127,7 +128,6 @@ $('document').ready(function(){
 	});
 
 	$('#light_candle').click(function(){
-		$('.balloons').fadeOut('fast');
 		$('.fuego').fadeIn('slow');
 		$(this).fadeOut('slow').promise().done(function(){
 			$('#wish_message').fadeIn('slow');
