@@ -1162,6 +1162,7 @@ audio {
 	margin-bottom: 200px;
 	display: flex;
 	flex-direction: column;
+	position: absolute;
 }
 .cake-message {
 	margin-top: 200px;
