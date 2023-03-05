@@ -1285,7 +1285,7 @@ audio {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.gallery-show-hide {
+#gallery-show-hide {
 	display: none;
 }
 
