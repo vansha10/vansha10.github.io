@@ -1288,7 +1288,7 @@ audio {
 .gallery-container {
 	overflow: hidden;
 	background-attachment: fixed;
-	display: flex;
+	display: none;
 	align-items: center;
 }
 

@@ -49,12 +49,8 @@ $('document').ready(function(){
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
 		});
-		var x = document.getElementById("gallery");
-		if (x.style.display === "none") {
-			x.style.display = "block";
-		} else {
-			x.style.display = "none";
-		}
+
+		document.getElementById("gallery").style.display = "flex";
 	});
 
 	function loopOne() {
