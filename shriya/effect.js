@@ -127,6 +127,7 @@ $('document').ready(function(){
 	});
 
 	$('#light_candle').click(function(){
+		$('.balloons').fadeOut('fast');
 		$('.fuego').fadeIn('slow');
 		$(this).fadeOut('slow').promise().done(function(){
 			$('#wish_message').fadeIn('slow');
@@ -136,7 +137,6 @@ $('document').ready(function(){
 		
 	$('#wish_message').click(function(){
 		 vw = $(window).width()/2;
-
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
 		$('#b1').attr('id','b11');
 		$('#b2').attr('id','b22')
@@ -152,8 +152,7 @@ $('document').ready(function(){
 		$('#b55').animate({top:240, left: vw+50},500);
 		$('#b66').animate({top:240, left: vw+150},500);
 		$('#b77').animate({top:240, left: vw+250},500);
-		$('.balloons').css('opacity','0');
-		//$('.balloons h2').fadeIn(3000);
+		
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#story').fadeIn('slow');
 		});
