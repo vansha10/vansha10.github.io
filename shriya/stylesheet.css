@@ -1315,15 +1315,15 @@ audio {
 	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 	transform: scale(1);
 	transition: all .25s;
-	
-	&:nth-child(7n + 1) {
-	  grid-column: 2 / span 2;
-	}
-	
-	&:hover {
-	  z-index: 2;
-	  transform: scale(2);
-	}
+  }
+
+  IMG:hover {
+	z-index: 2;
+	transform: scale(2);
+  }
+
+  IMG:nth-child(7n + 1) {
+	grid-column: 2 / span 2;
   }
   
 
