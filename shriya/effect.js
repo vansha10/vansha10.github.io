@@ -44,7 +44,7 @@ $('document').ready(function(){
 	});
 
 	$('#bannar_coming').click(function(){
-		document.getElementById("gallery-show-hide").fadeIn('slow');
+		$(".gallery-show-hide").fadeIn('slow');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
 		});
@@ -125,7 +125,7 @@ $('document').ready(function(){
 	});	
 
 	$('#cake_fadein').click(function(){
-		document.getElementById("gallery-show-hide").fadeOut('slow');
+		$(".gallery-show-hide").fadeOut('slow');
 		$('.cake').fadeIn('slow');
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#light_candle').fadeIn('slow');
