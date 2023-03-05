@@ -1212,7 +1212,7 @@ audio {
 	align-items: center;
   }
   
-  .gallery-wrapper IMG {
+  .gallery-photo {
 	z-index: 1;
 	grid-column: span 2;
 	max-width: 100%;
@@ -1222,12 +1222,12 @@ audio {
 	transition: all .25s;
   }
 
-  .gallery-wrapper IMG:hover {
+  .gallery-photo:hover {
 	z-index: 2;
 	transform: scale(2);
   }
 
-  .gallery-wrapper IMG:nth-child(7n + 1) {
+  .gallery-photo:nth-child(7n + 1) {
 	grid-column: 2 / span 2;
   }
   
