@@ -103,7 +103,7 @@ $('document').ready(function(){
 	}
 
 	$('#balloons_flying').click(function(){
-		document.getElementById("gallery-show-hide").style.display = "none";
+		//document.getElementById("gallery-show-hide").style.display = "none";
 		$('.balloon-border').animate({top:-500},8000);
 		$('#b1,#b4,#b5,#b7').addClass('balloons-rotate-behaviour-one');
 		$('#b2,#b3,#b6').addClass('balloons-rotate-behaviour-two');
