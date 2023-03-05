@@ -968,13 +968,6 @@ audio {
 	display: none;
 }
 
-.banner {
-	max-width: 100%;
-	display: none;
-	margin-top:50px;
-}
-
-
 .balloons {
 	position: fixed;
 	bottom: -200px;
