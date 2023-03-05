@@ -50,7 +50,7 @@ $('document').ready(function(){
 			$('#balloons_flying').fadeIn('slow');
 		});
 
-		document.getElementById("gallery").style.display = "flex";
+		document.getElementById("gallery-show-hide").style.display = "block";
 	});
 
 	function loopOne() {

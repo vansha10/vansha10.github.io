@@ -1285,10 +1285,14 @@ audio {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.gallery-show-hide {
+	display: none;
+}
+
 .gallery-container {
 	overflow: hidden;
 	background-attachment: fixed;
-	display: none;
+	display: flex;
 	align-items: center;
 }
 
