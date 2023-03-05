@@ -44,12 +44,11 @@ $('document').ready(function(){
 	});
 
 	$('#bannar_coming').click(function(){
+		document.getElementById("gallery-show-hide").style.display = "block";
+		document.getElementById("banner").style.display = "block";
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
 		});
-
-		document.getElementById("gallery-show-hide").style.display = "block";
-		document.getElementById("banner").style.display = "block";
 	});
 
 	function loopOne() {
@@ -104,6 +103,7 @@ $('document').ready(function(){
 	}
 
 	$('#balloons_flying').click(function(){
+		document.getElementById("gallery-show-hide").style.display = "none";
 		$('.balloon-border').animate({top:-500},8000);
 		$('#b1,#b4,#b5,#b7').addClass('balloons-rotate-behaviour-one');
 		$('#b2,#b3,#b6').addClass('balloons-rotate-behaviour-two');
