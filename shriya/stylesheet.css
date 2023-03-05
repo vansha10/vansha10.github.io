@@ -1161,18 +1161,6 @@ audio {
 	margin-top: 50px;
 	margin-bottom: 200px;
 }
-.cake-message {
-	margin-top: 100px;
-	display: none;
-}
-.cake-message p {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	text-transform: uppercase;
-	color: #C4515C;
-	text-shadow: 2px 2px 2px #FFF;
-	font-weight: bold;
-}
 
 .message {
 	margin-top: 200px;
